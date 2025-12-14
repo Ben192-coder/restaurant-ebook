@@ -1,0 +1,19 @@
+project:
+  type: website
+
+website:
+  title: "Restaurant Profit Readiness Guide"
+  sidebar:
+    style: docked
+    contents:
+      - index.md
+      - section1.md
+      - section2.md
+      - section3.md
+      - section4.md
+      - section5.md
+
+format:
+  html:
+    theme: cosmo
+    toc: true

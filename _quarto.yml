@@ -7,7 +7,7 @@ book:
   author: "Ben Halperin"
 
   chapters:
-    - index.md
+    - index.qmd
     - 01-chapter 1.qmd
     - 02-chapter 2.qmd
     - 03-chapter 3.qmd

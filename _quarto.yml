@@ -1,21 +1,16 @@
+
 project:
-  type: website
+  type: book
   output-dir: docs
 
-website:
-  title: "Restaurant Ebook"
-  navbar:
-    left:
-      - href: index.qmd
-        text: Home
-      - href: summary.qmd
-        text: Summary
-      - href: references.qmd
-        text: References
-
-format:
-  html:
-    theme: cosmo
-    toc: true
+book:
+  title: "Restaurant Profit Readiness Guide"
+  subtitle: "Break-Even, Labor, Food Cost, and Profit Control"
+  author: "Ben Halperin"
+  chapters:
+    - index.qmd
+    - intro.qmd
+    - summary.qmd
+    - references.qmd
 
 

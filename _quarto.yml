@@ -4,7 +4,6 @@ project:
 
 book:
   title: "Restaurant Profit Readiness Guide"
-  subtitle: "Break-Even, Labor, Food Cost, and Profit Control"
   author: "Ben Halperin"
 
   chapters:
@@ -34,9 +33,3 @@ book:
 format:
   html:
     toc: true
-    toc-depth: 2
-    number-sections: true
-
-  pdf:
-    documentclass: book
-    number-sections: true

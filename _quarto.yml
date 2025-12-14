@@ -1,19 +1,21 @@
 project:
   type: website
+  output-dir: docs
 
 website:
-  title: "Restaurant Profit Readiness Guide"
-  sidebar:
-    style: docked
-    contents:
-      - index.md
-      - section1.md
-      - section2.md
-      - section3.md
-      - section4.md
-      - section5.md
+  title: "Restaurant Ebook"
+  navbar:
+    left:
+      - href: index.qmd
+        text: Home
+      - href: summary.qmd
+        text: Summary
+      - href: references.qmd
+        text: References
 
 format:
   html:
     theme: cosmo
     toc: true
+
+
